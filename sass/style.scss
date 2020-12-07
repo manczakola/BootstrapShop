@@ -1,0 +1,35 @@
+@import "variables";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// @import "jumbotron";
+// @import "footer";
+
+.jumbotron {
+    position: relative;
+    background: url('../public/assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.jumbotron-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: $jumbotron-bg;
+    z-index: -1;
+
+}
+
+footer{
+    .info{
+        font-size: .9rem;
+    }
+}
+.second-footer{
+    width: 100%;
+    background-color: darken($color: $secondary, $amount: 20%);
+}
