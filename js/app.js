@@ -14,6 +14,10 @@ const shoppingCartBtn = document.querySelector('i');
 let money = [];
 
 // Functions
+
+btnShopping.forEach(btn => btn.addEventListener('click', () => { shoppingCartDropdown.classList.add('activeDropdown') }));
+
+
 btnShopping.forEach(btn => btn.addEventListener('click', (e) => {
 
         const shoppingCart = new Object;
@@ -23,10 +27,7 @@ btnShopping.forEach(btn => btn.addEventListener('click', (e) => {
     
         console.log(shoppingCart.img);
     
-        if (money.length+1 > 0) {
-            shoppingCartDropdown.classList.add('active')
-        }
-    
+      
         shoppingCartItems.innerHTML +=
             `
           <li class="clearfix">
@@ -54,5 +55,5 @@ btnShopping.forEach(btn => btn.addEventListener('click', (e) => {
 
 console.log(shoppingCartBtn);
 shoppingCartBtn.addEventListener('click', () => {
-    shoppingCartDropdown.classList.toggle('active')
-} )
+    shoppingCartDropdown.classList.toggle('activeDropdown')
+});

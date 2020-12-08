@@ -38,7 +38,7 @@
     float: right;
     width: 320px;
     position: absolute;
-    right: 50px;
+    right: 20vw;
     top:60px;
     border-radius: 3px;
     padding: 20px;
@@ -47,7 +47,7 @@
 
 }
 
-.active {
+.activeDropdown {
     display: flex;
     flex-direction: column;
     background: white;
