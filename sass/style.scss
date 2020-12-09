@@ -27,10 +27,7 @@
 }
 
 // Shopping Cart 
-.big-icon {
-    margin-left: 1em;
-    font-size: 1.2em;
-}
+
 
 
 .shopping-cart {
@@ -38,13 +35,12 @@
     float: right;
     width: 320px;
     position: absolute;
-    right: 20vw;
-    top:60px;
+    right: 10vw;
+    top:15vh;
     border-radius: 3px;
     padding: 20px;
     z-index: 1000;
     display: none;
-
 }
 
 .activeDropdown {
@@ -53,7 +49,11 @@
     background: white;
 }
 
-;
+.btn-shop{
+    font-size: 1.2em;
+}
+
+
 
 .clearfix {
     margin: .5em 0;

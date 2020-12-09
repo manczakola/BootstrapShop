@@ -53,7 +53,7 @@ btnShopping.forEach(btn => btn.addEventListener('click', (e) => {
 
 ));
 
-console.log(shoppingCartBtn);
+
 shoppingCartBtn.addEventListener('click', () => {
     shoppingCartDropdown.classList.toggle('activeDropdown')
 });
